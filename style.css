@@ -1,0 +1,103 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+/*------ 1st section -----*/
+.container {
+    display: flex;
+    padding-left: 10px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding: 2%;
+}
+
+.top-img img {
+    width: 80%;
+    padding-left: 100px;
+    margin-top: 80px;
+}
+
+.name {
+    color: orange;
+}
+
+.link-button1 {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/*------ 1st section closed ------*/
+
+/*------ 2nd section ------*/
+
+.middle {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.middle-img img {
+    width: 80%;
+}
+
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(hotpink, lightpink, hotpink);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/*----- 2nd section closed -----*/
+
+/*----- 3rd section -----*/
+
+.exp {
+    color: purple;
+    padding: 5%;
+}
+
+.experience {
+    width: 40%;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 25px;
+    text-align: justify;
+    box-shadow: 5px 5px 15px gainsboro;
+    border-left: 5px solid;
+    border-image: linear-gradient(hotpink, crimson);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+/*------ 3rd section clsoed ------*/
+
+footer {
+    text-align: center;
+}
+
+/*----- footer closed ------*/
